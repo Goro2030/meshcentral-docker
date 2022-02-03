@@ -1,6 +1,6 @@
 # Filename: Dockerfile
 
-FROM ubuntu:impish-20211015
+FROM ubuntu:rolling
 
 # Disable Prompt During Packages Installation
 ARG DEBIAN_FRONTEND=noninteractive
